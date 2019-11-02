@@ -65,8 +65,11 @@ def main():
                     code_val = sess.run(code)
                     code_result = np.reshape(code_val,[1,256])
                     code_result = np.sign(code_result)
-                    code_list = code_list[:-4] + 'txt'
+                    code_list = './code/'+str(i)+ '.txt'
                     np.savetxt(code_list,code_result,fmt = '%d')
+                    print(code_list,i)
+                    true_list.append(code_list)
+                np.savetxt("./feature.txt",true_list,fmt='%s')
             except tf.errors.OutOfRangeError:
                 print('Done training -- epoch limit reached')
             finally:
