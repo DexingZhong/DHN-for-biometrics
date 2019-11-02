@@ -28,8 +28,12 @@ If you find this repository is helpful, please cite the following work:
                Shuming Liu and
                Wenting Wang and
                Xuefeng Du},
+               
   title     = {Palm Vein Recognition with Deep Hashing Network},
+  
   pages     = {38--49},
+  
   year      = {2018},
+  
   doi       = {10.1007/978-3-030-03398-9\_4},
 }
