@@ -16,4 +16,4 @@ nets.py the network structure.
 
 statistics.py this is used for draw DET curves
 
-roi.txt this is the image path.
+roi_xjtu_a.txt  image path.
